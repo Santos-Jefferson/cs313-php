@@ -1,0 +1,91 @@
+﻿body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#header{
+    color: red;
+
+}
+table {
+    border: 0px solid black;
+    border-radius: 10px;
+}
+table#detailsPage {
+    border: 0px solid black;
+}
+td{
+    border: 1px solid black;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+th{
+    border: 1px solid black;
+    border-radius: 10px;
+   //width: 200px;
+}
+th#qty{
+   width: 50px;
+}
+th#prod{
+   width: 400px;
+}
+td#unitPrice{
+    border: 1px solid black;
+    text-align: right;
+}
+td#checkoutButton{
+    border: 1px solid black;
+    text-align: right;
+}
+td#checkoutButton{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+input[type=number]{
+    width: 30px;
+} 
+input[type=submit]{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+} 
+img#imgProduct {
+    width: 80px;
+}
+img#imgDetail {
+    width: 500px;
+}
+img#imgIcon {
+    width: 70px;
+}
+img#imgLogo {
+    width: 300px;
+}
+p{
+    font-weight: bold;
+}
+#clickShopCart{
+    color: red;
+    margin-right: 10px;
+}
+div#all{
+    width: 600px;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+    color: initial;
+    padding: 5px 5px 5px 5px;
+    height:40px;
+}
