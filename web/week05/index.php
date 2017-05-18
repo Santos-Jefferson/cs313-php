@@ -53,19 +53,6 @@ and open the template in the editor.
             <li><a href="investorReport.php?report=complete">Complete Report</a></li>
         </ul>
         <hr>
-            
-        
-        
-            
-        
-    
-        
-        <?php
-           
-        
-        
-        
-        ?>
     </body>
 </html>
 
