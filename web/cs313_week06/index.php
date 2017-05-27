@@ -67,13 +67,13 @@
         
         <?php 
             // default Heroku Postgres configuration URL
-            //$dbUrl = "postgres://epbgybkktxmuag:286a12b4c8ad5f6eb4bef101d7dc268e2a09a3a38c6a53611fcbecb015f55faf@ec2-23-21-235-142.compute-1.amazonaws.com:5432/debsfpni9tdrkp";
+            $dbUrl = "postgres://epbgybkktxmuag:286a12b4c8ad5f6eb4bef101d7dc268e2a09a3a38c6a53611fcbecb015f55faf@ec2-23-21-235-142.compute-1.amazonaws.com:5432/debsfpni9tdrkp";
             //print "<p>$dbUrl</p>\n\n";
 
-            //if (empty($dbUrl)) {
-             // example localhost configuration URL with postgres username and a database called cs313db
+            if (empty($dbUrl)) {
+            // example localhost configuration URL with postgres username and a database called cs313db
              $dbUrl = "postgres://postgres:aaml0509@localhost:5432/postgres";
-            //}
+            }
 
             $dbopts = parse_url($dbUrl);
 
