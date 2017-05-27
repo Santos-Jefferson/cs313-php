@@ -15,7 +15,7 @@ and open the template in the editor.
             <img src="byui-logo.png" alt="byui logo">
         </div>
         <div>
-            <h1>CS 313 - 05 Prove : Assignment - PHP Data Access</h1>
+            <h1>PROJECT TITLE: Personal Investments</h1>
         </div>
         
         <hr>

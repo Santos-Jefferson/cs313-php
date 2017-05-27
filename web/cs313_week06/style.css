@@ -1,0 +1,47 @@
+body{
+    font-family:monospace;
+    font-size:medium;
+}
+h1{
+    color: blue;
+}
+h2{
+    color: red;
+}
+h3{
+    color: orange;
+}
+a:link, a:visited{
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+input[type=text]{
+    width: 80%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=password] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    width: 80%;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+img{
+    width:10%;
+}
+img#imgedit{
+    width:20px;
+}
